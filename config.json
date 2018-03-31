@@ -1,0 +1,17 @@
+{
+  "pino": {
+    "safe": true,
+    "name": "platform",
+    "timestamp": true,
+    "prettyPrint": true,
+    "serializers": {
+      "req": "pino.stdSerializers.req",
+      "res": "pino.stdSerializers.res"
+    }
+  },
+  "bot": {
+    "noodlebot": {
+      "username": "KalguksuBot"
+    }
+  }
+}

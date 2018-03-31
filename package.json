@@ -1,0 +1,25 @@
+{
+  "name": "noodlebot",
+  "version": "1.0.0",
+  "description": "noodles noodles noodles",
+  "main": "noodle.js",
+  "scripts": {
+    "noodlebot": "nodemon noodle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangwao/noodlebot.git"
+  },
+  "author": "matej yangwao nemcek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangwao/noodlesbot/issues"
+  },
+  "homepage": "https://github.com/yangwao/noodlesbot#readme",
+  "dependencies": {
+    "nodemon": "^1.17.3",
+    "pino": "^4.15.3",
+    "telegraf": "^3.20.0"
+  }
+}
