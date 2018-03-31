@@ -35,4 +35,10 @@ bot.command('help', async (ctx) => {
   }
 })
 
+bot.hears('Hello', async (ctx) => {
+  if (ctx.from) {
+    return ctx.reply(`Hello ${ctx.from.first_name}`)
+  }
+})
+
 bot.startPolling()
