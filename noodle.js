@@ -41,4 +41,19 @@ bot.hears('Hello', async (ctx) => {
   }
 })
 
+bot.hears('Hi', async (ctx) => {
+  if (ctx.from && ctx.from.username) {
+    return ctx.reply(`Hello @${ctx.from.username}`)
+  }
+  if (ctx.from) {
+    return ctx.reply(`Hello ${ctx.from.first_name}`)
+  }
+})
+
+bot.hears('Kitty', async (ctx) => {
+  ctx.replyWithPhoto({
+    url: 'http://thecatapi.com/api/images/get?format=src&type=jpg'
+  })
+})
+
 bot.startPolling()
