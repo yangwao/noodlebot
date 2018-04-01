@@ -12,6 +12,9 @@
   "bot": {
     "noodlebot": {
       "username": "KalguksuBot"
+    },
+    "udonbot": {
+      "username": "Udon_Bot"
     }
   }
 }

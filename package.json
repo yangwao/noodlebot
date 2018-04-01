@@ -5,6 +5,7 @@
   "main": "noodle.js",
   "scripts": {
     "noodlebot": "nodemon noodle.js",
+    "udonbot": "nodemon udon.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +21,7 @@
   "dependencies": {
     "nodemon": "^1.17.3",
     "pino": "^4.15.3",
-    "telegraf": "^3.20.0"
+    "telegraf": "^3.20.0",
+    "telegraf-wit": "^2.1.0"
   }
 }
