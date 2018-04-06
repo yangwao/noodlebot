@@ -68,4 +68,10 @@ bot.hears('Kitty', async (ctx) => {
   })
 })
 
+bot.hears('pizza', async (ctx) => {
+  ctx.replyWithPhoto({
+    url: 'http://lorempizza.com/380/240'
+  })
+})
+
 bot.startPolling()
